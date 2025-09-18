@@ -12,7 +12,7 @@ This script automates the installation and setup of ComfyUI on Linux systems, pr
 To install and run the script in one command:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/codebyhasan/comfyui-linux/main/comfyui-linux.sh)
+sudo wget -c https://raw.githubusercontent.com/codebyhasan/comfyui-linux/main/comfyui-linux.sh; sudo chmod +x comfyui-linux.sh; sudo ./comfyui-linux.sh
 ```
 
 ---
